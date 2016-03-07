@@ -1,0 +1,448 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'LucidaSansUnicodeRegular';
+    src: url(/fonts/LucidaSansUnicodeRegular);
+}
+.wrapper {
+    width: 1000px;
+    height: 100%;
+    padding: 17px 45px 0 45px;
+}
+/* Контакты*/
+#telefon {
+    float: left;
+    margin: 5px 3px 0 7px;
+}
+.contacts {
+    float: left;
+    margin-top: 5px;
+    width: 266px;
+    font:18px arial;
+    color: #666666;
+    letter-spacing: 0.024em;
+    text-align: center;  
+}
+/*поле входа*/
+.forms {
+    float: left;
+    width: 496px;
+    height: 26px;
+    margin: 0 0 11px 15px;
+    background: linear-gradient(to top, #003366, #1f6787);
+    box-shadow: 3px 4px 4px -1px rgba(180,180,180,1);
+    border-radius: 6px;   
+}
+#men {
+    float: left;
+    margin: 5px 4px 0 8px;
+}
+.login, .password {
+    width: 106px;
+    height: 13px;
+    color: #999999;
+    font: 11px 'Lucida Sans Unicode';
+    padding-left: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.forms button{
+    background: none;
+    border: none;
+    font:11px 'Lucida Sans Unicode';
+    color: white;
+    letter-spacing:-0.02em;
+    margin:4px 0 0 -1px;
+}
+.line {
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    margin-left: -1px;
+}
+a.registr{
+    display:inline-block;
+    font:11px 'Lucida Sans Unicode';
+    color: white;
+    letter-spacing:-0.02em;
+    margin: 2px 14px 0 0;
+    text-decoration:none;    
+}
+a.forgot-password{
+    display:block;
+    float:right;
+    height:16px;
+    text-decoration:none;
+    font:12px 'Lucida Sans Unicode';
+    color:#cccccc;
+    border-bottom:1px solid #cccccc;
+    margin:4px 10px 0 0;    
+}
+/*мини-навигация*/
+.navi {
+    position: relative;
+    display: inline-block;
+    width: 76px;
+    height: 20px;
+    margin: 2px 0 0 16px; 
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    box-shadow: 0px 1px 1px 0px rgba(204,209,211,1);
+}
+.navi a{
+    position: absolute;
+    bottom: 3px;
+}
+.navi a:first-child {
+    left: 9px;    
+}
+.navi a:nth-child(2) {
+    left: 29px;
+}
+.navi a:last-child {
+    left: 52px; 
+}
+/*Главная навигация*/
+nav {
+    height: 36px;
+    width: 911px;
+    background: linear-gradient(to bottom, #4c4c4c 0%,#2c2c2c 0%,#474747 1%,#474747 1%,#474747 2%,#595959 2%,#595959 2%,#474747 2%,#2c2c2c 4%,#666666 4%,#2c2c2c 4%,#666666 4%,#2c2c2c 4%,#474747 6%,#666666 6%,#474747 6%,#474747 9%,#2c2c2c 15%,#2c2c2c 15%,#2c2c2c 15%,#2c2c2c 15%,#2c2c2c 15%,#2c2c2c 16%,#2c2c2c 16%,#2c2c2c 18%,#2c2c2c 18%,#2c2c2c 18%,#2c2c2c 18%,#2c2c2c 18%,#000000 30%,#000000 30%,#111111 60%,#1c1c1c 91%,#2b2b2b 100%,#131313 100%);
+    border-radius: 5px;
+    margin-bottom: 163px;
+}
+nav ul {
+    float:left;
+    margin-left: 127px;   
+}
+nav li {
+    display: inline-block;
+    margin-top:6px;
+    list-style: none;
+    padding-left:15px;
+}
+nav li a {
+    display:block;
+    height:24px;
+    font: 14px 'Lucida Sans Unicode';
+    color: #b1bcc0;
+    letter-spacing:-0.01em;
+    text-decoration: none;
+    text-transform: uppercase; 
+    padding-top:3px;  
+}
+nav li:first-child{
+    width:102px;
+    padding-left:18px;
+}
+nav li:nth-child(2){
+    width:69px;
+}
+nav li:nth-child(3){
+    width:85px;
+}
+nav li:nth-child(4){
+    width:60px;
+}
+nav li:nth-child(5){
+    width:90px;
+}
+nav li:hover,.hover-li  {
+    background: #175173;
+    border-radius: 25px;
+}
+nav p{
+    float:left;
+    color:#929b9f;
+    font:11px arial;
+    letter-spacing:0.012em;
+    padding:11px 0 0 8px;
+}
+nav img{
+    float:left;
+    margin:10px 0 0 56px;
+}
+span.blue-text{
+    font-family:arial;
+    color:#0d5a8f;
+    font-size:12px;
+    padding-left:5px;
+    margin-right:6px;
+}
+/*левый каталог*/
+section.left-side {
+    float: left;
+    width: 191px;
+    margin-top: 2px;
+}
+div.catalog-header {
+    width: 180px;
+    height: 25px;
+    font: 13px 'Lucida Sans Unicode';
+    color:#003366;
+    letter-spacing: -0.015em;
+    line-height:27px;
+    border: 1px solid #8b979c;
+    border-radius: 13px;
+    box-shadow: 0px 1px 1px 0px rgba(204,209,211,1);
+    margin-bottom: 13px; 
+}
+.catalog-header img{
+    float: left;
+    margin-top: 1px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.block-name {/*общие стили для всех блоков с названием категории*/
+    border: 1px solid #999999;
+    border-radius: 18px;
+    width: 149px;
+    font:14px 'Lucida Sans Unicode';
+    color: #114165;
+    height:26px;
+}
+.block-name img {
+    float: left;
+    margin: 1px 1px 0 5px;
+}
+.block1{
+    height:26px;
+    line-height:29px;
+    margin-bottom:3px;
+}
+.block2{
+    margin-top:2px;
+    line-height:28px;
+    margin-bottom:1px;
+}
+.block3{
+    margin-top:1px;
+    line-height:28px;
+    margin-bottom:2px;
+}
+.left-side ul li {
+    height: 26px;
+    font: 13px 'Lucida Sans Unicode';
+    color: #336666;
+    margin-left: 34px; 
+    letter-spacing: -0.02em;
+    list-style: none; /*убираем стили списка*/
+    background: url(img/marker.png) no-repeat 0px 3px; /*устанавливаем свое изображение на маркер*/
+    padding-left: 13px; /*меняем положение текста*/
+}
+.left-side ul li:last-child {
+    height: 19px;
+}
+ul li.active {
+    height: 14px;
+    width: 116px;
+    font-family: arial;
+    font-weight: bold;
+    font-style: italic;
+    color: #003366;
+    letter-spacing: 0.04em; 
+    border-bottom: 2px solid #003366;
+    margin-top:2px;
+    margin-bottom:6px;
+}
+/*блок с товарами*/
+.prodacts {
+    float: left;
+    width: 526px;
+    height: 627px;
+    background: linear-gradient(to top, #93a7b0, #e5e7e8);
+    border-radius: 4px;
+}
+.tovar {
+    display: inline-block;
+    height: 179px;
+    margin: 14px 0 10px 22px;
+}
+.tovar .marka {
+    font: 15px 'Lucida Sans Unicode';
+    color: #336699;
+    text-align:center;
+    letter-spacing:0.01em;
+    line-height: 1em;
+    margin-bottom:1px;
+}
+.tovar2 .marka{
+    padding-left:10px;   
+}
+.tovar3 .marka{
+    padding-left:11px;
+}
+.tovar5 .marka{
+    padding-left:7px;
+}
+.tovar6 .marka{
+    padding-left:11px;
+}
+.tovar8 .marka{
+    padding-left:8px;
+}
+.tovar9 .marka{
+    padding-left:11px;
+}
+.tovar .vid {
+    font-family: 'Lucida Sans Unicode';
+    font-size: 13px;
+    color: #333333;
+    line-height: 1em;
+    padding-left:14px;
+    letter-spacing:-0.01em;
+}
+.tovar2 .vid,
+.tovar5 .vid,
+.tovar8 .vid{
+    padding-left: 28px;
+    letter-spacing:0.04em; 
+}
+.prodacts .price {
+    font: 16px arial;
+    font-weight: bold;
+    font-style: italic;
+    color: #003366;
+    word-spacing:0.15em;
+    margin-left:38px;
+}
+.prodacts .hrn{
+    font-size:12px;
+    }
+.prodacts .image {
+    width: 137px;
+    height: 127px;
+    border: 1px solid #a9b3b6;
+    border-radius: 8px;
+    margin-bottom:3px;
+}
+.prodacts .image-1 {
+    background:url(img/1.png) no-repeat;
+    background-position:30px 5px;
+    background-color:#ffffff;
+}
+.prodacts .image-2 {
+    background:url(img/haka.png) no-repeat;
+    background-position:35px 4px;
+    background-color:#ffffff;
+    margin-left:2px;
+}
+.prodacts .image-3 {
+    background:url(img/3.png) no-repeat;
+    background-position:28px 4px;
+    background-color:#ffffff;
+    margin-left:4px;
+}
+/**/
+section.right-side {
+    width: 191px;
+    float: left;
+}
+div.brand-header {
+    width: 180px;
+    height: 24px;
+    font:13px 'Lucida Sans Unicode';
+    color:#003366;
+    letter-spacing: 0.05em;
+    line-height:25px;
+    border: 1px solid #8b979c;
+    border-radius: 13px;
+    box-shadow: 0px 1px 1px 0px rgba(204,209,211,1);
+    margin-left:9px;
+}
+.brand-header img{
+    float: left;
+    margin: 1px 5px 0 3px;
+}
+.block4{
+    width:135px;
+    line-height:28px;
+    margin:15px 0 5px 24px;
+}
+.block5{
+    margin:6px 0 6px 22px;
+    line-height:28px;
+    width:136px;
+}
+.block5 img{
+    margin:1px 4px 0 3px;
+}
+.right-side ul{
+    margin-left:34px;
+    list-style:none;
+}
+.right-side ul li{
+    font: 13px 'Lucida Sans Unicode';
+    color:#465961;
+    letter-spacing:-0.02em;
+    height:25px;
+}
+.right-side label{
+    padding-left: 12px; 
+}
+.right-side input{
+    vertical-align: middle;   
+}
+.right-side button{
+    width:80px; 
+    height:28px;
+    background: linear-gradient(to top, #0d3458, #1f6787);
+    border: none;
+    border-radius:15px;
+    font:11px arial;
+    color: #e5e9ea;
+    margin:12px 0 0 34px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+.brands-logo{
+    background: url(img/brands-line.png) no-repeat;
+    height: 30px;
+    width: 800px;
+    margin:37px 0 22px 117px;
+}
+footer{
+    height: 100px;
+    width: 910px;
+    background-color: #213a4d;
+}
+footer p{
+    display: inline-block;
+    color:#bec6c9;
+    margin: 0 7px 0 12px;
+    font-size: 12px;
+}
+.footer-nav{
+    background: none;
+    margin-left:309px;
+}
+.footer-nav ul li{
+    display:inline-block;
+    padding:0;
+    margin: 8px 0 9px 0; 
+}
+.footer-nav ul li a{
+    font:12px arial;
+    color:#bec6c9;
+    text-decoration: none;
+    letter-spacing: 0.025em;
+}
+.footer-nav ul li:last-child{
+    margin-left:5px;
+}
+
+.footer-nav ul li a:hover{
+    color:#6699cc;
+}
+footer span{
+    font: 10px arial;
+    color:#7f4740;
+    padding-left:377px;
+}
